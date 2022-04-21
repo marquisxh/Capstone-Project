@@ -40,7 +40,7 @@ const favTeamInfo = document.querySelector('#fav-team-data')
 const playerOneButtonClicked = () => {
 const playerSearch = firstPlayer.value
     console.log('button clicked')
-    axios.get(`https://www.balldontlie.io/api/v1/players?search=${playerSearch}`)
+    axios.get(`https://www.balldontlie.io/api/v1/players?search=${playerSearch}`, `https://www.balldontlie.io/api/v1/stats`)
      .then((res) =>{
          let result = "".toLowerCase()
          console.log(res.data.data[0])

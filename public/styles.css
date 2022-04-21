@@ -17,7 +17,6 @@ header {
 }
 
 section.ball {
-    /* margin-top: 1px; */
     float: right;
     text-align: right;
     width: 800px;
@@ -31,14 +30,10 @@ br {
 
 div.intro{
     background-color: orange;
-    /* margin: 6px; */
-    /* padding: 6px; */
     text-align: center;
     font-family: "Lucida Handwriting", "Brush Script MT", cursive;
     width: 100%;
     height: 5vh;
-    /* top: 0;
-    left: 0; */
 }
 
 section#top-players {
@@ -72,7 +67,6 @@ button {
 }
 
 footer{
-    /* background: ; */
     color: white;
     padding: 5px;
     text-align: center;

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Hall of Game</title>
+</head>
+
+<body>
+<header>
+    <h1>Hall of Game</h1>
+</header>
+<!-- <br><br><br> -->
+<div class="intro">
+<h5>Welcome to Hall Of Game! Let us know your top 3 Basketball players currently in the league. Also, let us know your favorite team and we will provide you all the results you need!</h5>
+</div>
+<!-- <section class="ball">
+<img src="/basketball.jpg" alt="cartoon-ball"><br>
+</section> -->
+<div>
+<form>
+    <section id="top-players"><h2>Top Players</h2></section><br>
+
+    <label for="player-1">Player 1</label>
+    <input type="search" id="player-1" name="q">
+    <button type = "button" id="player-1-button">Pick Player</button>
+    <button type = "button" id="player-1-button-del">Delete Player</button><br>
+    <div class="player-info" id ="player-1-data"><br>
+
+    </div>
+    <br><label for="player-2">Player 2</label>
+    <input type="search" id="player-2" name="q">
+    <button type = "button" id ="player-2-button">Pick Player</button>
+    <button type = "button" id="player-2-button-del">Delete Player</button><br>
+    <div class="player-info" id ="player-2-data"><br>
+
+    </div>
+    <br><label for="player-3">Player 3</label>
+    <input type="search" id="player-3" name="q">
+    <button type = "button" id="player-3-button">Pick Player</button>
+    <button type = "button" id="player-3-button-del">Delete Player</button>
+    <div class="player-info" id ="player-3-data"><br>
+
+    </div>
+    <br><section id ="fav-team"><h2>Favorite Team</h2></section>
+    <br><label for="team-1">Favorite Team</label>
+    <input type="search" id="team-1" name="q">
+    <button type = "button" id="team-1-button">Favorite Team</button>
+    <button type = "button" id="team-1-button-del">Delete Team</button><br>
+    <div class="team-info" id ="fav-team-data"><br>
+
+    </div>
+</form>
+</div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    <footer>
+        <p class="copyright">Copyright 2022 Hall Of Game</p>
+      </footer>
+</body>
+</html>
